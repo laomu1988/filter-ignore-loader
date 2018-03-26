@@ -1,0 +1,21 @@
+{
+  "name": "filter-ignore-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack --config ./test/webpack.config.js --progress --hide-modules"
+  },
+  "author": "laomu1988@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laomu1988/filter-ignore-loader.git"
+  }
+}
