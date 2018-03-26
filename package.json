@@ -1,7 +1,7 @@
 {
   "name": "filter-ignore-loader",
   "version": "1.0.0",
-  "description": "",
+  "description": "webpack编译时忽略部分文件（可替换为指定模板）",
   "main": "index.js",
   "scripts": {
     "test": "webpack --config ./test/webpack.config.js --progress --hide-modules"
