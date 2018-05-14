@@ -6,7 +6,7 @@ const template = '';
 
 module.exports = function (source) {
     const options = loaderUtils.getOptions(this) || {};
-    const root = this.options.context;
+    const root = (this.options || this._compiler.context || {}).context || {};
     const resourcePath = this.resourcePath.replace(root, '');
     // console.log('options:', options);
     // console.log('root:', root);

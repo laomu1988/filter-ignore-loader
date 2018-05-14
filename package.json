@@ -1,6 +1,6 @@
 {
   "name": "filter-ignore-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack编译时忽略部分文件（可替换为指定模板）",
   "main": "index.js",
   "scripts": {

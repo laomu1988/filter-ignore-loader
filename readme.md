@@ -40,5 +40,7 @@ const webpackConfig = {
 
 
 ## 版本记录
-* 1.0.0
- - 指定模板、忽略部分文件
+### 1.0.1
+- 修复webpack4升级后this.options.context不能使用的问题
+### 1.0.0
+- 指定模板、忽略部分文件
