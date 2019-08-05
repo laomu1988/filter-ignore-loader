@@ -26,7 +26,7 @@ const webpackConfig = {
             test: /\.*.js/,
             use: [
                 {
-                    loader: path.resolve(__dirname, '../index'),
+                    loader: 'filter-ignore-loader',
                     options: {
                         test: ['ignore'],
                         template: 'console.log("ignore-template");'
